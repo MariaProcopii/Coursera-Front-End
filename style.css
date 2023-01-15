@@ -1,5 +1,5 @@
 body{
-    background-color: #F8EDE3;
+    background-color: #f6f5f1;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 2rem;
@@ -69,12 +69,12 @@ nav ul a:hover {
 }
 
 .card {
-    flex: 1;
-    background-color: #FFFBE9;
+    flex: 1 1 auto;
+    background-color: #F3EFE0;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 10px;
-    margin: 0.5rem;
-    min-width: 450px;
+    margin-bottom: 1rem;
+    min-width: 400px;
     max-width: 500px;
   }
 
@@ -141,5 +141,20 @@ nav ul a:hover {
 #cards {
     display: flex;
     flex-wrap: wrap;
+}
+
+footer {
+    border-top: #333333;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+footer img {
+    max-width: 5%;
 }
 
